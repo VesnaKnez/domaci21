@@ -109,5 +109,7 @@ Za kraj kliknuti Delete Account, opet kliknuti Continue.
 
         WebElement cont = driver.findElement(By.xpath("//*[@id=\"form\"]/div/div/div/div/a"));
         cont.click();
+
+        driver.quit();
     }
 }
